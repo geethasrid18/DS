@@ -8,10 +8,10 @@ public class TimeComplexityDemo {
     System.out.println(tc.findSum(9999));
     System.out.println("Time Taken-"+(System.currentTimeMillis()-now)+"ms");
  }
-public int findSum(int s)
-{
-    return s*(s+1)/2;
-}
+// public int findSum(int s)
+// {
+//     return s*(s+1)/2;
+// }
 //Output:
 //49995000
 //Time Taken-4.0ms
