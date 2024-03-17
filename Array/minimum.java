@@ -10,13 +10,13 @@ public class minimum {
         {
             arr[i]=sc.nextInt();
         }
-        int res=min(n, arr);
+        int res=min(arr);
         System.out.println(res);
     }
-    static int min(int n,int arr[])
+    static int min(int arr[])
     {
     int min=arr[0];
-    for(int i=1;i<n;i++)
+    for(int i=1;i<arr.length;i++)
     {
         if(arr[i]<min)
         {
