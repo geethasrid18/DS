@@ -21,6 +21,7 @@ public class reverse{
             System.out.println(arr[i]);
         }
     }
+    //Swapping of the elements eg:0 and n-1,1 and n-2
     public static void reversearr(int arr[],int start,int end)
     {
         while(start<end)
